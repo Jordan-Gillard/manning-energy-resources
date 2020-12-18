@@ -9,5 +9,5 @@ and Dropwizard for handling all server-related functionality. Each subdirectory'
 `README.md` file will contain information related to the code in that directory.
 
 ## Overview
-Our goal is to build out this infrastructure:
+Our goal is to build out this system:
 ![Overview of this projects infrastructure.](resources/OverviewOfInfrastructure.jpeg)
