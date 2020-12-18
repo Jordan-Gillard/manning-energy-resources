@@ -1,0 +1,35 @@
+{
+  "namespace": "event.avro",
+  "type": "record",
+  "name": "Event",
+  "fields": [
+    {
+      "name": "charging",
+      "type": "int"
+    },
+    {
+      "name": "charging_source",
+      "type": [
+        "string",
+      ]
+    },
+    {
+      "name": "current_capacity",
+      "type": [
+        "int",
+      ]
+    },
+    {
+      "name": "moduleL_temp",
+      "type": [
+        "int",
+      ]
+    },
+    {
+      "name": "moduleR_temp",
+      "type": [
+        "int",
+      ]
+    },
+  ]
+}
