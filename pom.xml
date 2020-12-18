@@ -38,10 +38,10 @@
                         </goals>
                         <configuration>
                             <sourceDirectory>
-                                ${project.basedir}/src/main/avro/
+                                ${project.basedir}/scaffold/src/main/avro/
                             </sourceDirectory>
                             <outputDirectory>
-                                ${project.basedir}/src/main/java/
+                                ${project.basedir}/scaffold/src/main/java/
                             </outputDirectory>
                         </configuration>
                     </execution>
