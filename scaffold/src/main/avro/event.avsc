@@ -9,27 +9,27 @@
     },
     {
       "name": "charging_source",
-      "type": [
-        "string",
-      ]
+      "type":
+        "string"
+
     },
     {
       "name": "current_capacity",
-      "type": [
-        "int",
-      ]
+      "type":
+        "int"
+
     },
     {
       "name": "moduleL_temp",
-      "type": [
-        "int",
-      ]
+      "type":
+        "int"
+
     },
     {
       "name": "moduleR_temp",
-      "type": [
-        "int",
-      ]
-    },
+      "type":
+        "int"
+
+    }
   ]
 }
