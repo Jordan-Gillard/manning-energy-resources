@@ -1,7 +1,7 @@
 {
-  "namespace": "event.avro",
+  "namespace": "events",
   "type": "record",
-  "name": "Event",
+  "name": "BatteryEvent",
   "fields": [
     {
       "name": "charging",
