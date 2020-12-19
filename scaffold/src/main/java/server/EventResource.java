@@ -1,4 +1,4 @@
-package server;
+package java.server;
 
 import javax.ws.rs.POST;
 import javax.ws.rs.Path;
@@ -10,8 +10,10 @@ import java.awt.*;
 @Produces(MediaType.APPLICATION_JSON)
 public class EventResource {
     @POST
-    public void postEvent() {
-        System.out.println();
+    public void postEvent(events.BatteryEvent batteryEvent) {
+        System.out.println(batteryEvent.getCharging());
+        System.out.println(batteryEvent.getChargingSource());
+        System.out.println(batteryEvent.getInverterState());
     }
 }
 
